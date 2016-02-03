@@ -1,0 +1,21 @@
+name: salt-mysql
+location: tbd
+services:
+- id: mydb
+  type: org.apache.brooklyn.cm.salt.SaltEntity
+  name: saltdb
+
+  start_states:
+    - mysql
+  stop_states:
+    - mysql.disabled
+
+  formulas:
+    - https://github.com/saltstack-formulas/mysql-formula/archive/master.tar.gz
+    - http://localhost:8080/my-mysql-formula.tar.gz
+
+  pillars: 
+    - mysql
+  pillarUrls:
+    - http://localhost:8080/my-mysql-pillar.tar.gz
+
