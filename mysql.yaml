@@ -2,7 +2,7 @@ name: salt-mysql
 location: tbd
 services:
 - id: mydb
-  type: org.apache.brooklyn.cm.salt.SaltEntity
+  type: org.apache.brooklyn.entity.cm.salt.SaltEntity
   name: saltdb
 
   start_states:
