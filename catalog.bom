@@ -18,8 +18,14 @@
 #
 
 brooklyn.catalog:
+  name: Classic Models Database
   version: 0.1.0
   itemType: template
+  publish:
+    version: 0.1.0
+    description: An example of a MySQL database installed by a blueprint using Salt
+    license_code: Apache-2.0
+    overview: README.md
   item:
     name: salt-mysql
     services:
