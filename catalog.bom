@@ -18,6 +18,7 @@
 #
 
 brooklyn.catalog:
+  id: salt-mysql-example
   name: Classic Models Database
   version: 0.1.0
   itemType: template
