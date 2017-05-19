@@ -20,10 +20,10 @@
 brooklyn.catalog:
   id: salt-mysql-example
   name: Classic Models Database
-  version: 0.1.0
+  version: 0.2.0
   itemType: template
   publish:
-    version: 0.1.0
+    version: 0.2.0
     description: An example of a MySQL database installed by a blueprint using Salt
     license_code: Apache-2.0
     overview: README.md
@@ -46,5 +46,5 @@ brooklyn.catalog:
       pillars:
         - mysql
       pillarUrls:
-        - https://github.com/geomacy/salt-ent-pillar/releases/download/0.0.1/salt-ent-pillar.tar.gz
+        - https://github.com/geomacy/salt-ent-pillar/releases/download/0.0.2/salt-ent-pillar.tar.gz
 
