@@ -46,5 +46,5 @@ brooklyn.catalog:
       pillars:
         - mysql
       pillarUrls:
-        - https://github.com/geomacy/salt-ent-pillar/releases/download/0.0.2/salt-ent-pillar.tar.gz
+        - https://github.com/geomacy/salt-ent-pillar/releases/download/0.0.3/salt-ent-pillar.tar.gz
 
